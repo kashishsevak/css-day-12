@@ -12,11 +12,11 @@
 
 .main{
     margin-top: 20px;
-    height: 400px;
+    height: 600px;
     background-color: #4b4b4b;
     color: #fff;
     padding: 20px;
-    overflow: hidden;
+    
 }
 
 .main h2{
@@ -94,4 +94,47 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column-reverse;
+}
+
+
+.box-8{
+    height: 250px;
+    background-color: #b2c824;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.box-9{
+    height: 250px;
+    background-color: #b2c824;
+    display: flex;
+    flex-flow: row wrap-reverse;
+}
+
+.box-10{
+    height: 250px;
+    background-color: #b2c824;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.box-11{
+    height: 250px;
+    background-color: #b2c824;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.box-12{
+    height: 250px;
+    background-color: #b2c824;
+    display: flex;
+    flex-flow: column wrap-reverse;
+}
+
+.box-13{
+    height: 250px;
+    background-color: #b2c824;
+    display: flex;
+    flex-flow: column nowrap;
 }
